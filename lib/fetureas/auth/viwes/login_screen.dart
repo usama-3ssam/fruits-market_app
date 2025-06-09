@@ -1,10 +1,8 @@
 // ignore_for_file: deprecated_member_use
 import 'package:flutter/material.dart';
-// import 'package:my_app/fetureas/auth/viwes/signup_screen.dart';
-// import '../../layouts/views/layout_screen.dart';
-import '../../widgets/helper.dart';
-import '../../widgets/swiper_widget.dart';
-// import '../widgets/forget_pass_widget.dart';
+import 'package:my_app/fetureas/auth/widgets/forget_pass_widget.dart';
+import '../../../core/widgets/helper.dart';
+import '../../../core/widgets/swiper_widget.dart';
 import '../widgets/or_text_widget.dart';
 import '../widgets/siginin_buttom_widget.dart';
 import '../widgets/signin_with_google_widget.dart';
@@ -68,10 +66,7 @@ class LogInScreen extends StatelessWidget {
                         keyboardType: TextInputType.visiblePassword,
                         icon: Icons.remove_red_eye,
                       ),
-                      const SizedBox(
-                        height: 10,
-                      ),
-                      // const ForgetPassWidget(),
+                      const ForgetPassWidget(),
                       ButtonWidget(
                         buttomColor: Colors.grey[600] as Color,
                         function: () {

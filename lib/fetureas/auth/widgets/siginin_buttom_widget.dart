@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../widgets/helper.dart';
+import '../../../core/widgets/helper.dart';
 
 // ignore: must_be_immutable
 class ButtonWidget extends StatelessWidget {
