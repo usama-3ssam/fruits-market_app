@@ -52,7 +52,7 @@ class TextWidget extends StatelessWidget {
   }
 }
 
-Widget tFF({
+Widget textFormFiled({
   required controller,
   required label,
   required keyboardType,

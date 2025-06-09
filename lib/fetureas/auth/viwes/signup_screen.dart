@@ -1,20 +1,19 @@
 // ignore_for_file: deprecated_member_use
 import 'package:flutter/material.dart';
-import 'package:my_app/fetureas/auth/viwes/signup_screen.dart';
-import 'package:my_app/fetureas/auth/widgets/forget_pass_widget.dart';
-import '../../../core/widgets/helper.dart';
-import '../../../core/widgets/swiper_widget.dart';
-import '../widgets/or_text_widget.dart';
+import 'package:my_app/core/widgets/helper.dart';
+import 'package:my_app/core/widgets/swiper_widget.dart';
 import '../widgets/siginin_buttom_widget.dart';
-import '../widgets/signin_with_google_widget.dart';
+import 'login_screen.dart';
 
-class LogInScreen extends StatelessWidget {
-  const LogInScreen({super.key});
+class SignUpScreen extends StatelessWidget {
+  const SignUpScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     TextEditingController emailTextController = TextEditingController();
     TextEditingController passwordTextController = TextEditingController();
+    TextEditingController nameTextController = TextEditingController();
+    TextEditingController addressTextController = TextEditingController();
 
     return Scaffold(
       backgroundColor: Colors.white,
@@ -34,9 +33,7 @@ class LogInScreen extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      HorizontalSpace(
-                        hight: 100,
-                      ),
+                      HorizontalSpace(hight: 100),
                       TextWidget(
                         text: 'Welcome Back',
                         color: Colors.white,
@@ -45,76 +42,68 @@ class LogInScreen extends StatelessWidget {
                       ),
                       TextWidget(
                         fontSize: 20,
-                        text: 'Sigin in to continue',
+                        text: 'Signup in to continue',
                         color: Colors.grey[200] as Color,
                       ),
-                      HorizontalSpace(
-                        hight: 20,
+                      HorizontalSpace(hight: 10),
+                      textFormFiled(
+                        controller: nameTextController,
+                        label: 'Name',
+                        keyboardType: TextInputType.text,
+                        onChang: (v) {},
                       ),
+                      HorizontalSpace(hight: 10),
                       textFormFiled(
                         controller: emailTextController,
                         label: 'Email',
-                        onChang: (v) {},
                         keyboardType: TextInputType.emailAddress,
+                        onChang: (v) {},
                       ),
-                      HorizontalSpace(
-                        hight: 20,
-                      ),
+                      HorizontalSpace(hight: 10),
                       textFormFiled(
                         controller: passwordTextController,
                         label: 'Password',
+                        keyboardType: TextInputType.number,
                         onChang: (v) {},
-                        keyboardType: TextInputType.visiblePassword,
                         icon: Icons.remove_red_eye,
                       ),
-                      const ForgetPassWidget(),
-                      ButtonWidget(
-                        buttomColor: Colors.grey[600] as Color,
-                        function: () {
-                          // navTo(context, const HomeLayOut());
-                        },
-                        text: 'Sign In',
-                        textColor: Colors.white,
-                        fontSize: 22,
-                      ),
-                      HorizontalSpace(
-                        hight: 20,
-                      ),
-                      const SignInWithGoogelWidget(),
-                      HorizontalSpace(
-                        hight: 20,
-                      ),
-                      const ORTextWidget(),
-                      HorizontalSpace(hight: 20),
-                      ButtonWidget(
-                        buttomColor: Colors.black,
-                        function: () {
-                          // navTo(context, const HomeLayOut());
-                        },
-                        text: 'Continue as a guest',
-                        textColor: Colors.white,
-                        fontSize: 20,
+                      HorizontalSpace(hight: 10),
+                      textFormFiled(
+                        controller: addressTextController,
+                        label: 'shopping address',
+                        keyboardType: TextInputType.visiblePassword,
+                        onChang: (v) {},
                       ),
                       HorizontalSpace(hight: 10),
+                      ButtonWidget(
+                        buttomColor: Colors.grey[600] as Color,
+                        text: 'Sign Up',
+                        textColor: Colors.white,
+                        function: () {
+                          // navTo(context, const HomeLayOut());
+                        },
+                        fontSize: 22,
+                      ),
+                      HorizontalSpace(hight: 20),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           TextWidget(
-                            fontSize: 20,
-                            text: 'Don\'t have an account?',
+                            text: 'Already have an account!',
                             color: Colors.white,
+                            fontSize: 20,
                           ),
                           TextButton(
                             onPressed: () {
                               navTo(
                                 context,
-                                const SignUpScreen(),
+                                const LogInScreen(),
                               );
                             },
                             child: TextWidget(
-                              fontSize: 22,
-                              text: 'Sign up',
+                              text: 'Sign in',
                               color: Colors.blue,
+                              fontSize: 22,
                             ),
                           ),
                         ],

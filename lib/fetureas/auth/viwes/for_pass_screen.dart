@@ -60,7 +60,7 @@ class ForgetPasswordScreen extends StatelessWidget {
                       HorizontalSpace(
                         hight: 20,
                       ),
-                      tFF(
+                      textFormFiled(
                         controller: emailTextController,
                         label: 'Email address',
                         onChang: (v) {},
