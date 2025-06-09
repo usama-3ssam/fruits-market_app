@@ -1,0 +1,2 @@
+H:/Collage/task_hamdi/my_app/android/app/.cxx/Debug/55b3w681/armeabi-v7a/CMakeFiles/edit_cache.dir
+H:/Collage/task_hamdi/my_app/android/app/.cxx/Debug/55b3w681/armeabi-v7a/CMakeFiles/rebuild_cache.dir
