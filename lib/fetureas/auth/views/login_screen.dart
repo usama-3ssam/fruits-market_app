@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:my_app/fetureas/auth/views/signup_screen.dart';
 import 'package:my_app/fetureas/auth/widgets/forget_pass_widget.dart';
 import 'package:my_app/fetureas/layouts/views/layout.dart';
-import '../../../core/widgets/helper.dart';
+import '../../../core/widgets/helper_widgets.dart';
 import '../../../core/widgets/swiper_widget.dart';
 import '../widgets/or_text_widget.dart';
 import '../widgets/siginin_buttom_widget.dart';

@@ -1,7 +1,7 @@
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:my_app/core/widgets/helper.dart';
+import 'package:my_app/core/widgets/helper_widgets.dart';
 
 class HomeLayOut extends StatefulWidget {
   const HomeLayOut({super.key});

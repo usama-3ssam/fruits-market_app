@@ -1,7 +1,7 @@
 import 'package:card_swiper/card_swiper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:my_app/core/widgets/helper.dart';
+import 'package:my_app/core/widgets/helper_widgets.dart';
 import 'package:my_app/fetureas/product/views/all_products_screen.dart';
 import 'package:my_app/fetureas/product/views/on_sale_screen.dart';
 import 'package:my_app/fetureas/layouts/widgets/on_sale_widget.dart';

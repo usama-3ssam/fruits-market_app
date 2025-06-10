@@ -1,6 +1,6 @@
 import 'package:card_swiper/card_swiper.dart';
 import 'package:flutter/material.dart';
-import 'helper.dart';
+import 'helper_widgets.dart';
 
 class SwiperWidget extends StatelessWidget {
   const SwiperWidget({

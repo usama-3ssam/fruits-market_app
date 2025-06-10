@@ -79,25 +79,30 @@ Widget textFormFiled({
             : null,
         labelStyle: const TextStyle(
           color: Colors.white,
+          fontSize: 18,
         ),
         labelText: label,
         disabledBorder: const UnderlineInputBorder(
           borderSide: BorderSide(
+            width: 2,
             color: Colors.white,
           ),
         ),
         focusedBorder: const UnderlineInputBorder(
           borderSide: BorderSide(
+            width: 2,
             color: Colors.white,
           ),
         ),
         enabledBorder: const UnderlineInputBorder(
           borderSide: BorderSide(
+            width: 2,
             color: Colors.white,
           ),
         ),
         border: const UnderlineInputBorder(
           borderSide: BorderSide(
+            width: 2,
             color: Colors.white,
           ),
         ),

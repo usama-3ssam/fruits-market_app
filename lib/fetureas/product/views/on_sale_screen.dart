@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/core/widgets/helper.dart';
+import 'package:my_app/core/widgets/helper_widgets.dart';
 import 'package:my_app/fetureas/layouts/views/layout.dart';
 import 'package:my_app/fetureas/layouts/widgets/on_sale_widget.dart';
 

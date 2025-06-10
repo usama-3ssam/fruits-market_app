@@ -1,6 +1,6 @@
 // ignore_for_file: deprecated_member_use
 import 'package:flutter/material.dart';
-import 'package:my_app/core/widgets/helper.dart';
+import 'package:my_app/core/widgets/helper_widgets.dart';
 import 'package:my_app/core/widgets/swiper_widget.dart';
 import '../widgets/siginin_buttom_widget.dart';
 import 'login_screen.dart';
