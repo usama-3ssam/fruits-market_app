@@ -2,6 +2,7 @@ import 'package:card_swiper/card_swiper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:my_app/core/widgets/helper.dart';
+import 'package:my_app/fetureas/layouts/product/views/on_sale_screen.dart';
 import 'package:my_app/fetureas/layouts/widgets/on_sale_widget.dart';
 import 'package:my_app/fetureas/layouts/widgets/our_product_widge.dart';
 
@@ -39,10 +40,10 @@ class _HomeScreenState extends State<HomeScreen> {
               padding: const EdgeInsets.all(8.0),
               child: ViewAllButtom(
                 fun: () {
-                  // navTo(
-                  //   context,
-                  //   const OnSaleScreen(),
-                  // );
+                  navTo(
+                    context,
+                    const OnSaleScreen(),
+                  );
                 },
               ),
             ),
