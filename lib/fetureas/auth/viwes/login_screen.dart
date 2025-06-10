@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/fetureas/auth/viwes/signup_screen.dart';
 import 'package:my_app/fetureas/auth/widgets/forget_pass_widget.dart';
+import 'package:my_app/fetureas/layouts/views/layout.dart';
 import '../../../core/widgets/helper.dart';
 import '../../../core/widgets/swiper_widget.dart';
 import '../widgets/or_text_widget.dart';
@@ -71,7 +72,7 @@ class LogInScreen extends StatelessWidget {
                       ButtonWidget(
                         buttomColor: Colors.grey[600] as Color,
                         function: () {
-                          // navTo(context, const HomeLayOut());
+                          navTo(context, const HomeLayOut());
                         },
                         text: 'Sign In',
                         textColor: Colors.white,
@@ -89,7 +90,7 @@ class LogInScreen extends StatelessWidget {
                       ButtonWidget(
                         buttomColor: Colors.black,
                         function: () {
-                          // navTo(context, const HomeLayOut());
+                          navTo(context, const HomeLayOut());
                         },
                         text: 'Continue as a guest',
                         textColor: Colors.white,

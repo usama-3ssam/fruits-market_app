@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-// import '../layouts/views/cart_screen.dart';
-// import '../layouts/views/category_screen.dart';
-// import '../layouts/views/home_screen.dart';
-// import '../layouts/views/setting_screen.dart';
-// import '../products/views/prod_screen.dart';
+import 'package:my_app/fetureas/layouts/views/cart_screen.dart';
+import 'package:my_app/fetureas/layouts/views/categ_screen.dart';
+import 'package:my_app/fetureas/layouts/views/home_screen.dart';
+import 'package:my_app/fetureas/layouts/views/setting_scrren.dart';
 
 Future<void> showAlertDialog({
   context,
@@ -108,12 +107,12 @@ Widget textFormFiled({
     );
 
 int currentIndex = 0;
-// List<Widget> screens = [
-//   const HomeScreen(),
-//   const CategoryScreen(),
-//   const CartScreen(),
-//   const SettingsScreen(),
-// ];
+List<Widget> screens = [
+  const HomeScreen(),
+  const CategoryScreen(),
+  const CartScreen(),
+  const SettingsScreen(),
+];
 
 const List<Color> gridColors = [
   Color(0xff53B175),
