@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/fetureas/auth/viwes/login_screen.dart';
+import 'package:my_app/fetureas/auth/views/login_screen.dart';
 
 void main() {
   runApp(const MyApp());

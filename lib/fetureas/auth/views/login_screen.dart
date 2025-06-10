@@ -1,6 +1,6 @@
 // ignore_for_file: deprecated_member_use
 import 'package:flutter/material.dart';
-import 'package:my_app/fetureas/auth/viwes/signup_screen.dart';
+import 'package:my_app/fetureas/auth/views/signup_screen.dart';
 import 'package:my_app/fetureas/auth/widgets/forget_pass_widget.dart';
 import 'package:my_app/fetureas/layouts/views/layout.dart';
 import '../../../core/widgets/helper.dart';
