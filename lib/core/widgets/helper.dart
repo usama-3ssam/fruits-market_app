@@ -3,6 +3,7 @@ import 'package:my_app/fetureas/layouts/views/cart_screen.dart';
 import 'package:my_app/fetureas/layouts/views/categ_screen.dart';
 import 'package:my_app/fetureas/layouts/views/home_screen.dart';
 import 'package:my_app/fetureas/layouts/views/setting_scrren.dart';
+import 'package:my_app/fetureas/layouts/widgets/product_widget.dart';
 
 Future<void> showAlertDialog({
   context,
@@ -168,14 +169,14 @@ void navTo(BuildContext context, widget) {
 }
 
 // ignore: non_constant_identifier_names
-// void NavToProductScreem(BuildContext context) {
-//   Navigator.push(
-//     context,
-//     MaterialPageRoute(
-//       builder: (context) => const ProductScreen(),
-//     ),
-//   );
-// }
+void NavToProductScreem(BuildContext context) {
+  Navigator.push(
+    context,
+    MaterialPageRoute(
+      builder: (context) => const ProductScreen(),
+    ),
+  );
+}
 
 // ignore: must_be_immutable
 class HorizontalSpace extends StatelessWidget {
