@@ -41,10 +41,7 @@ class ForgetPasswordScreen extends StatelessWidget {
                             color: Colors.white,
                           ),
                           onPressed: () {
-                            navTo(
-                              context,
-                              const LogInScreen(),
-                            );
+                            Navigator.pop(context);
                           },
                         ),
                       ),

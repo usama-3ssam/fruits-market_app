@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/fetureas/auth/views/for_pass_screen.dart';
-import 'package:my_app/core/widgets/helper_widgets.dart';
 
 class ForgetPassWidget extends StatelessWidget {
   const ForgetPassWidget({
@@ -14,9 +13,11 @@ class ForgetPassWidget extends StatelessWidget {
         const Spacer(),
         TextButton(
           onPressed: () {
-            navTo(
+            Navigator.push(
               context,
-              const ForgetPasswordScreen(),
+              MaterialPageRoute(
+                builder: (context) => const ForgetPasswordScreen(),
+              ),
             );
           },
           child: const Text(

@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:my_app/core/widgets/helper_widgets.dart';
+import 'package:my_app/fetureas/auth/views/for_pass_screen.dart';
 import 'package:my_app/fetureas/auth/views/login_screen.dart';
 import 'package:my_app/fetureas/settings/views/order_screen.dart';
 import 'package:my_app/fetureas/settings/views/viewed_product_screen.dart';
@@ -154,7 +155,15 @@ class SettingsScreenState extends State<SettingsScreen> {
             icon_1: CupertinoIcons.eye,
             subtitle: '',
           ),
-          const TileItem(
+          TileItem(
+            fun: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const ForgetPasswordScreen(),
+                ),
+              );
+            },
             title: 'Forget Password',
             icon_1: CupertinoIcons.lock,
             subtitle: '',
