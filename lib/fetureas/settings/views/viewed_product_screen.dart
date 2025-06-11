@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:my_app/core/widgets/helper_widgets.dart';
-import 'package:my_app/fetureas/auth/views/empty_screen.dart';
+import 'package:my_app/fetureas/settings/views/empty_screen.dart';
 import 'package:my_app/fetureas/layouts/views/layout.dart';
 import 'package:my_app/fetureas/settings/widgets/viewed_product_widget.dart';
 
