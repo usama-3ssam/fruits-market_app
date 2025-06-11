@@ -147,7 +147,7 @@ class SettingsScreenState extends State<SettingsScreen> {
             fun: () {
               navTo(
                 context,
-                const ViewScreen(),
+                const ViewedProductsScreen(),
               );
             },
             title: 'Viewed',
