@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:my_app/fetureas/layouts/views/cart_screen.dart';
 import 'package:my_app/fetureas/layouts/views/categ_screen.dart';
 import 'package:my_app/fetureas/layouts/views/home_screen.dart';
-import 'package:my_app/fetureas/layouts/views/setting_scrren.dart';
+import 'package:my_app/fetureas/settings/views/setting_scrren.dart';
 import 'package:my_app/fetureas/layouts/widgets/product_widget.dart';
 
 Future<void> showAlertDialog({
