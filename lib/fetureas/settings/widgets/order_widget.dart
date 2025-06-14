@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/core/widgets/helper_widgets.dart';
+import 'package:my_app/core/utils/assets.dart';
 
 class OrderWidget extends StatefulWidget {
   const OrderWidget({super.key});
@@ -18,7 +18,7 @@ class _OrderWidgetState extends State<OrderWidget> {
           SizedBox(
             height: MediaQuery.of(context).size.height * 0.18,
             width: MediaQuery.of(context).size.width * .4,
-            child: Image.asset(img),
+            child: Image.asset(AssetsData.img),
           ),
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 8.0),

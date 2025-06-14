@@ -1,6 +1,6 @@
 import 'package:card_swiper/card_swiper.dart';
 import 'package:flutter/material.dart';
-import 'helper_widgets.dart';
+import 'package:my_app/core/utils/assets.dart';
 
 class SwiperWidget extends StatelessWidget {
   const SwiperWidget({
@@ -15,11 +15,11 @@ class SwiperWidget extends StatelessWidget {
       autoplay: true,
       itemBuilder: (BuildContext context, int index) {
         return Image.asset(
-          swiperLogImg[index],
+          AssetsData.swiperLogImg[index],
           fit: BoxFit.cover,
         );
       },
-      itemCount: swiperLogImg.length,
+      itemCount: AssetsData.swiperLogImg.length,
     );
   }
 }

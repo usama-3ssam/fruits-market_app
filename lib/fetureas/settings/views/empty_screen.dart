@@ -26,7 +26,6 @@ class EmptyScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         leading: InkWell(
           onTap: () {
-            // Navigator.pop(context);
             navTo(
               context,
               const HomeLayOut(),

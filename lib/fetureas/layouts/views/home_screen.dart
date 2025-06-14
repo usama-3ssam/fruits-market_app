@@ -1,6 +1,7 @@
 import 'package:card_swiper/card_swiper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:my_app/core/utils/assets.dart';
 import 'package:my_app/core/widgets/helper_widgets.dart';
 import 'package:my_app/fetureas/product/views/all_products_screen.dart';
 import 'package:my_app/fetureas/product/views/on_sale_screen.dart';
@@ -30,11 +31,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 autoplay: true,
                 itemBuilder: (BuildContext context, int index) {
                   return Image.asset(
-                    swiperImg[index],
+                    AssetsData.swiperImg[index],
                     fit: BoxFit.fill,
                   );
                 },
-                itemCount: swiperImg.length,
+                itemCount: AssetsData.swiperImg.length,
               ),
             ),
             Padding(

@@ -42,7 +42,6 @@ class ViewedProductsScreenState extends State<ViewedProductsScreen> {
                   style: TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
-                    fontSize: 32,
                   ),
                 ),
               ),

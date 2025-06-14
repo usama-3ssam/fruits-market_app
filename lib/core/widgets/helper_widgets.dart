@@ -129,31 +129,6 @@ const List<Color> gridColors = [
   Color(0xffB7DFF5),
 ];
 
-const List<String> imgs = [
-  'assets/images/cat/fruits.png',
-  'assets/images/cat/grains.png',
-  'assets/images/cat/nuts.png',
-  'assets/images/cat/spices.png',
-  'assets/images/cat/Spinach.png',
-  'assets/images/cat/veg.png',
-];
-
-const List<String> swiperImg = [
-  'assets/images/landing/buy-on-laptop.jpg',
-  'assets/images/landing/buy-through.png',
-  'assets/images/landing/buyfood.jpg',
-  'assets/images/landing/grocery-cart.jpg',
-  'assets/images/landing/store.jpg',
-  'assets/images/landing/vergtablebg.jpg',
-];
-const List<String> swiperLogImg = [
-  'assets/images/landing/buy-on-laptop.jpg',
-  'assets/images/landing/buy-through.png',
-  'assets/images/landing/buyfood.jpg',
-  'assets/images/landing/grocery-cart.jpg',
-  'assets/images/landing/store.jpg',
-  'assets/images/landing/vergtablebg.jpg',
-];
 const List<String> title = [
   'Fruits',
   'Grains',
@@ -162,8 +137,6 @@ const List<String> title = [
   'Spinach',
   'vergtablebg',
 ];
-
-const String img = 'assets/images/cat/veg.png';
 
 void navTo(BuildContext context, widget) {
   Navigator.pushAndRemoveUntil(context, MaterialPageRoute(

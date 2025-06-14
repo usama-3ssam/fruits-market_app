@@ -108,7 +108,6 @@ class OrderScreenState extends State<OrderScreen> {
                   style: TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
-                    fontSize: 32,
                   ),
                 ),
               ),

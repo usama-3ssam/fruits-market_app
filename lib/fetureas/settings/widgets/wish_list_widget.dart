@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:my_app/core/widgets/helper_widgets.dart';
+import 'package:my_app/core/utils/assets.dart';
 
 class WishListWidget extends StatelessWidget {
   const WishListWidget({super.key});
@@ -17,7 +17,7 @@ class WishListWidget extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(left: 10.0),
             child: Image.asset(
-              img,
+              AssetsData.img,
               height: MediaQuery.of(context).size.height * 0.18,
               width: MediaQuery.of(context).size.width * .23,
             ),

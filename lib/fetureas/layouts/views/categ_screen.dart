@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/core/utils/assets.dart';
 import 'package:my_app/core/widgets/helper_widgets.dart';
 import 'package:my_app/fetureas/layouts/views/categ_product_screen.dart';
 import 'package:my_app/fetureas/layouts/widgets/categ_widget.dart';
@@ -40,7 +41,7 @@ class CategoryScreen extends StatelessWidget {
                 },
                 child: CatgWidget(
                   color: gridColors[index],
-                  images: imgs[index],
+                  images: AssetsData.imgs[index],
                   title: title[index],
                 ),
               );
