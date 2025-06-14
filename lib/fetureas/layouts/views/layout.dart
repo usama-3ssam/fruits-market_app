@@ -50,7 +50,7 @@ class HomeLayOutState extends State<HomeLayOut> {
               CupertinoIcons.square_grid_2x2,
               size: 32,
             ),
-            label: 'Categ',
+            label: 'category',
           ),
           BottomNavigationBarItem(
             icon: Icon(
